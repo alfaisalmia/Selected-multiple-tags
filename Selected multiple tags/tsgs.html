@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<!-- Tokenize Start -->
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.tokenize.css" />
+
+
+<script type="text/javascript" src="scripts/jquery.tokenize.js"></script>
+</head>
+
+<body>
+<form>
+	<div class='box'>
+        <select id="tokenize_skills" name="skills[]" class="tokenize-sample" multiple="multiple">
+            <option value="1">Dhaka</option>
+            <option value="11">Dhaka2</option>
+            <option value="12">Dha2ka</option>
+            <option value="13">Dha2ka</option>
+            <option value="14">Dhawka</option>
+            <option value="15">Dhaeka</option>
+            <option value="16">Dhaewka</option>
+        </select>   
+        <script type="text/javascript">
+            $('select#tokenize_skills').tokenize({displayDropdownOnFocus: true});
+        </script>
+    </div>
+</form>
+
+<style>
+    .tokenize-sample{
+        margin: 0px; 
+        padding: 0px; 
+        border: 0px; 
+        display: none;
+        width: 505px;
+    }
+    .radio_reset{
+        margin-left: 20px;
+        color: red;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    #vip_cli{
+        visibility: hidden;
+    }
+    input[type=text]{
+        width: 500px;
+        height: 30px;
+    }
+    th{
+        color: #fff;
+        font-size: 20px;
+        height: 40px;
+        background: #ABBFC4;
+    }
+    input[type=submit]{
+        padding: 5px 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+</style>  
+
+</body>
+
+<!-- Tokenize End -->
+
+
+ 
+</html>
